@@ -1,0 +1,846 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> E-solar base | Solar Power Products and Solution</title>
+    <meta name="title" content="E-base solar | Solar Power Products and Solution">
+    <meta name="description" content="Explore a wide range of solar power products and solutions. Solar water heaters, pumps and lightening, power backup, and protection. Buy online or inquire.">
+    <meta name="author" content="ALX PROJECT , michae202github.io">
+    <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.mins.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-8LYMKNE7JF"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-8LYMKNE7JF');
+    </script>
+</head>
+
+<body>
+    <header class="header bg-success text-white">
+        <div class="container custom-max-width">
+            <div class="row">
+                <div class="col-md-6 offset-md-3 py-2">
+                    <div id="topNavSlider" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item text-center active">
+                                <a href="tel:+254735908547" class="text-center fw-bold"><span><i class="bi bi-telephone-outbound me-2"></i></span> 0735 908 547</a>
+                            </div>
+                            <div class="carousel-item text-center">
+                                <a href="mailto:e-solarbase.com" class="text-center">e-solarbase.com</a>
+                            </div>
+                            <div class="carousel-item">
+                                <h1 class="mb-0 fs-5 text-white fw-bolder text-center"><span><i class="bi bi-headphones me-2"></i></span> 020-3500662</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sticky Navbar -->
+    <nav class="navbar sticky-top navbar-dark bg-white py-0">
+        <div class="container custom-max-width px-2">
+            <div class="navbar__inner px-3">
+                <a class="navbar-brand font__medium" href="/"><img src="images/psslogo_clear.png" alt="Logo" height="72">
+                    <span class="d-none d-md-inline"></span>
+                </a>
+                <div class="navbar__menu d-none d-md-flex">
+                    <div class="nav__item">
+                        <a href="/" class="nav__link"><span><i class="bi bi-house-fill me-2"></i></span></a>
+                    </div>
+                    <div class="nav__item">
+                        <a href="/shop" class="nav__link">Products</a>
+                    </div>
+                    <div class="nav__item">
+                        <a href="/e-solar-base-solutions" class="nav__link">Solutions</a>
+                    </div>
+                    <div class="nav__item">
+                        <a href="/blog" class="nav__link">Blog</a>
+                    </div>
+                    <div class="nav__item">
+                        <a href="/careers" class="nav__link">Careers</a>
+                    </div>
+                    <div class="nav__item">
+                        <a href="/about-us" class="nav__link">About us</a>
+                    </div>
+
+                    <div class="nav__item">
+                                                    <a class="me-2" href="/check-account"><span><i class="bi bi-person-circle me-2"></i></span>Login</a>
+                                            </div>
+
+                   <!-- <a href="/cart.php" class="navbar-brand position-relative my-auto">
+                        <div class="cart-icon-container text-black">
+                            <span class="bi bi-cart3"></span>
+                            <span class="badge" id="cartIconCount">0</span>
+                        </div>
+                    </a>-->
+                </div>
+                <div class="d-block d-md-none">
+                    <div class="d-flex">
+                        <button class="btn border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+                            <span class="fw-bold fs-1"><i class="bi bi-list"></i></span>
+                        </button>
+                        <a href="/cart.php" class="navbar-brand position-relative my-auto">
+                            <div class="cart-icon-container text-black">
+                                <span class="bi bi-cart3"></span>
+                                <span class="badge" id="mcartIconCount">0</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                        <div class="offcanvas-header">
+                            <div class="menu__imgbx">
+                                <img src="images/psslogo_clear.png" class="rounded-2" alt="power solar systems logo" loading="lazy" height="72">
+                            </div>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div class="list-group list-group-flush">
+                                <a href="/" class="list-group-item list-group-item-action"><span><i class="bi bi-house-fill me-2"></i></span> Home</a>
+                                <a href="/shop.php" class="list-group-item list-group-item-action">Shop</a>
+                                <a href="/solutions.php" class="list-group-item list-group-item-action">Solutions</a>
+                                <a href="/blog" class="list-group-item list-group-item-action">Blog</a>
+                                <a href="/careers.php" class="list-group-item list-group-item-action">Careers</a>
+                                <a href="/about-us.php" class="list-group-item list-group-item-action">About us</a>
+                            </div>
+                            <button class="btn btn-primary my-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAccount" aria-expanded="false" aria-controls="collapseAccount">
+                                <span><i class="bi bi-person-circle me-2"></i></span>Account
+                            </button>
+                            <div class="collapse" id="collapseAccount">
+                                <div class="card card-body">
+                                                                            <a class="list-group-item list-group-item-action" href="checkaccount.php"><span class="me-2"><i class="bi bi-person-circle"></i></span>Login</a>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div></nav>
+    <!-- Main Section -->
+    <main class="content mt-3">
+        <div class="container custom-max-width"><!-- Hero Section -->
+<div class="row hero__row rounded-3 mb-3 bg-white">
+    <div class="d-none d-md-block col-md-3 bg-white rounded-3 py-3">
+        <div class="list-group list-group-flush px-2 " style="max-height: 280px; overflow-y: auto">
+                                                <a href="/shop-category/ups-and-ups-batteries" class="list-group-item list-group-item-action">
+                        <p class="mb-1 clamp__one">UPS and UPS Batteries</p>
+                    </a>
+                                    <a href="/shop-category/solar-lighting" class="list-group-item list-group-item-action">
+                        <p class="mb-1 clamp__one">Solar lighting </p>
+                    </a>
+                                    <a href="/shop-category/battery-racks" class="list-group-item list-group-item-action">
+                        <p class="mb-1 clamp__one">Battery Racks</p>
+                    </a>
+                                    <a href="/shop-category/automatic-voltage-stabilizers" class="list-group-item list-group-item-action">
+                        <p class="mb-1 clamp__one">Automatic Voltage Stabilizers</p>
+                    </a>
+                                    <a href="/shop-category/batteries" class="list-group-item list-group-item-action">
+                        <p class="mb-1 clamp__one">Batteries</p>
+                    </a>
+                                    <a href="/shop-category/inverters" class="list-group-item list-group-item-action">
+                        <p class="mb-1 clamp__one">Inverters</p>
+                    </a>
+                                    <a href="/shop-category/generators" class="list-group-item list-group-item-action">
+                        <p class="mb-1 clamp__one">Generators</p>
+                    </a>
+                                    <a href="/shop-category/solar-panels" class="list-group-item list-group-item-action">
+                        <p class="mb-1 clamp__one">Solar Panels</p>
+                    </a>
+                                    <a href="/shop-category/solar-water-pumps" class="list-group-item list-group-item-action">
+                        <p class="mb-1 clamp__one">Solar Water Pumps</p>
+                    </a>
+                                    <a href="/shop-category/solar-water-heaters" class="list-group-item list-group-item-action">
+                        <p class="mb-1 clamp__one">Solar Water Heaters</p>
+                    </a>
+                                    </div>
+    </div>
+    <div class="col-md-7 rounded-3 px-md-0">
+        <div id="heroCaptions" class="carousel slide px-0 py-3 pb-4 carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#heroCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#heroCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#heroCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#heroCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#heroCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#heroCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#heroCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            </div>
+            <div class="carousel-inner rounded-3">
+                <div class="carousel-item active">
+                    <div class="hero__carousel">
+                        <img src="images/pss-inverter-charger-backup.jpeg" class="hero__img" loading="lazy" asp-append-version="true" alt="e-solar base-charger-backup">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="hero__carousel">
+                        <img src="images/pss-power-backup.jpeg" class="hero__img" loading="lazy" asp-append-version="true" alt="e-solar base power-backup-solution">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="hero__carousel">
+                        <img src="images/pss-ups-solution.jpeg" class="hero__img" loading="lazy" asp-append-version="true" alt="e-solar base power-ups-solution">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="hero__carousel">
+                        <img src="images/pss-solar-batteries-banner.jpeg" class="hero__img" loading="lazy" asp-append-version="true" alt="e-solar base batteries">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="hero__carousel">
+                        <img src="images/pss-solar-lighting-solution.jpeg" class="hero__img" loading="lazy" asp-append-version="true" alt="e-solar base solar-lights">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="hero__carousel">
+                        <img src="images/pss-solar-power-solutions.jpeg" class="hero__img" loading="lazy" asp-append-version="true" alt="e-solar base solar-power-products">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="hero__carousel">
+                        <img src="images/pss-solar-water-pumping-solutions.jpeg" class="hero__img" loading="lazy" asp-append-version="true" alt="e-solar base solar-water-pumps">
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev btn__heroprev" type="button" data-bs-target="#heroCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next btn__heronext" type="button" data-bs-target="#heroCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="d-none d-md-flex flex-column col-md-2 py-3 pb-4">
+        <div class="v__stack">
+            <div class="card__top rounded-3">
+                <div class="vstack my-auto p-2 py-3 d-flex flex-column justify-content-between">
+                    <div class="text-center">
+                        <h4 class="header__text text-success"><span class="me-2"><i class="bi bi-geo-alt"></i></span>Address</h4>
+                        <hr class="my-1">
+                        <small>Mombasa Road</small>
+                        <small>Vision Plaza</small>
+                        <small>Office No. 47</small>
+                    </div>
+                    <p class="footer__text lh-base text-center my-auto text-danger"><span><i class="bi bi-telephone"></i></span>
+                        0795 855 754
+                    </p>
+                </div>
+
+            </div>
+            <div class="card__bottom">
+                <img src="images/herotop.gif" class="rounded-3" alt="...">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Categories Horizontal Slider -->
+<div class="row top__categories rounded-3 mb-3 px-2 pt-3 bg-white">
+    <div class="col-12 d-flex align-items-center justify-content-between bg-success rounded-3">
+        <h1 class="header__text text-white my-3">Categories</h1>
+        <!-- <a href="/shop-categories" class="text-white">
+            <span>View All<i class="bi bi-chevron-right ms-2"></i></span>
+        </a> -->
+    </div>
+    <div class="col-12 bg-white">
+                    <div class="swiper home__categories pt-2 pb-3">
+                <div class="swiper-wrapper mb-0">
+                                            <div class="swiper-slide">
+                            <div class="card h-100 rounded-3 border-0">
+                                <img src="images/cate_650973d6b8215_14.jpg" class="img__fluidcover rounded-3" loading="lazy" alt="UPS and UPS Batteries">
+                                <p class="mb-0 text-center text-black py-2">UPS and UPS Batteries</p>
+                                <a href="/shop-category/ups-and-ups-batteries" class="stretched-link"></a>
+                            </div>
+                        </div>
+                                            <div class="swiper-slide">
+                            <div class="card h-100 rounded-3 border-0">
+                                <img src="images/cate_650971546d393_13.jpg" class="img__fluidcover rounded-3" loading="lazy" alt="Solar lighting ">
+                                <p class="mb-0 text-center text-black py-2">Solar lighting </p>
+                                <a href="/shop-category/solar-lighting" class="stretched-link"></a>
+                            </div>
+                        </div>
+                                            <div class="swiper-slide">
+                            <div class="card h-100 rounded-3 border-0">
+                                <img src="images/cate_64e89fc94cec0_.png" class="img__fluidcover rounded-3" loading="lazy" alt="Battery Racks">
+                                <p class="mb-0 text-center text-black py-2">Battery Racks</p>
+                                <a href="/shop-category/battery-racks" class="stretched-link"></a>
+                            </div>
+                        </div>
+                                            <div class="swiper-slide">
+                            <div class="card h-100 rounded-3 border-0">
+                                <img src="images/cate_64f4c1f2d8ac5_11.jpg" class="img__fluidcover rounded-3" loading="lazy" alt="Automatic Voltage Stabilizers">
+                                <p class="mb-0 text-center text-black py-2">Automatic Voltage Stabilizers</p>
+                                <a href="/shop-category/automatic-voltage-stabilizers" class="stretched-link"></a>
+                            </div>
+                        </div>
+                                            <div class="swiper-slide">
+                            <div class="card h-100 rounded-3 border-0">
+                                <img src="images/cate_64df75ca519f9_.jpg" class="img__fluidcover rounded-3" loading="lazy" alt="Batteries">
+                                <p class="mb-0 text-center text-black py-2">Batteries</p>
+                                <a href="/shop-category/batteries" class="stretched-link"></a>
+                            </div>
+                        </div>
+                                            <div class="swiper-slide">
+                            <div class="card h-100 rounded-3 border-0">
+                                <img src="images/cate_64f4c250624d5_8.jpg" class="img__fluidcover rounded-3" loading="lazy" alt="Inverters">
+                                <p class="mb-0 text-center text-black py-2">Inverters</p>
+                                <a href="/shop-category/inverters" class="stretched-link"></a>
+                            </div>
+                        </div>
+                                            <div class="swiper-slide">
+                            <div class="card h-100 rounded-3 border-0">
+                                <img src="images/cate_64e14707ad6ea_7.jpg" class="img__fluidcover rounded-3" loading="lazy" alt="Generators">
+                                <p class="mb-0 text-center text-black py-2">Generators</p>
+                                <a href="/shop-category/generators" class="stretched-link"></a>
+                            </div>
+                        </div>
+                                            <div class="swiper-slide">
+                            <div class="card h-100 rounded-3 border-0">
+                                <img src="images/cate_64e1348b90d70_3.jpg" class="img__fluidcover rounded-3" loading="lazy" alt="Solar Panels">
+                                <p class="mb-0 text-center text-black py-2">Solar Panels</p>
+                                <a href="/shop-category/solar-panels" class="stretched-link"></a>
+                            </div>
+                        </div>
+                                            <div class="swiper-slide">
+                            <div class="card h-100 rounded-3 border-0">
+                                <img src="images/cate_64ba86ede9916_2.jpg" class="img__fluidcover rounded-3" loading="lazy" alt="Solar Water Pumps">
+                                <p class="mb-0 text-center text-black py-2">Solar Water Pumps</p>
+                                <a href="/shop-category/solar-water-pumps" class="stretched-link"></a>
+                            </div>
+                        </div>
+                                            <div class="swiper-slide">
+                            <div class="card h-100 rounded-3 border-0">
+                                <img src="images/cate_64e14ca48dc3f_1.jpg" class="img__fluidcover rounded-3" loading="lazy" alt="Solar Water Heaters">
+                                <p class="mb-0 text-center text-black py-2">Solar Water Heaters</p>
+                                <a href="/shop-category/solar-water-heaters" class="stretched-link"></a>
+                            </div>
+                        </div>
+                                    </div> <!-- Close swiper-wrapper here -->
+                <div class="swiper-pagination" style="--swiper-pagination-bottom: 4px;"></div>
+                <div class="swiper-button-next" style="--swiper-navigation-size: 12px;"></div>
+                <div class="swiper-button-prev" style="--swiper-navigation-size: 12px;"></div>
+            </div>
+            </div>
+</div>
+
+<!-- Solutions Grid-->
+<div class="row top__solutions rounded-3 mb-3 px-2 py-3 bg-white">
+    <div class="col-12 d-flex align-items-center justify-content-between rounded-3">
+        <h4 class="header__text text-success my-2">Our Solutions</h4>
+        <a href="/power-and-solar-solutions" class="text-white">
+            <span class="text-success">View All<i class="bi bi-chevron-right ms-2"></i></span>
+        </a>
+    </div>
+    <div class="col-12">
+        <hr class="mt-1">
+    </div>
+    <div class="col-12">
+        <div class="row row-cols-2 row-cols-md-4">
+                                                <div class="col card showcase__card h-100 border-0 p-2 rounded-2">
+                        <div class="showcase__image">
+                            <img src="images/sol_64ec6f47308e6_.jpg" class="img__gswiper rounded-top" alt="Borehole Services" loading="lazy">
+                            <h4 class="regular__bold text-success my-2">Borehole Services</h4>
+                        </div>
+                        <div class="showcase__content">
+                            <p>We are a leading provider of borehole services in Kenya. With over 7 years of experience, we offer a comprehensive range of services, including hydrogeological surveys, drilling, test pumping, solar or electric borehole equipping, pump lifting, pump lowering, pump fishing, borehole flushing, and borehole camera inspection. Our experienced team of experts is committed to providing our customers with the highest quality service at affordable prices.</p>
+<p><strong>Why us?</strong></p>
+<ul>
+<li data-sourcepos="7:1-7:270"><strong>Wide range of services:</strong>�&nbsp;We can help you with every step of the borehole drilling process, from hydrogeological surveys to solar or electric borehole equipping, pump lifting, pump lowering, pump fishing, borehole flushing, and borehole camera inspection.</li>
+<li data-sourcepos="8:1-8:194"><strong>Experience:</strong>�&nbsp;We have over 7 years of experience in the borehole drilling industry, and we have a proven track record of providing our customers with high-quality service.</li>
+<li data-sourcepos="9:1-9:138"><strong>Affordable:</strong>�&nbsp;We offer our services at competitive prices, so you can be sure that you are getting a good value for your money.</li>
+<li data-sourcepos="10:1-10:116"><strong>Reliability:</strong>�&nbsp;We are available 24/7 to meet your needs, and we can move to remote areas to drill boreholes.</li>
+<li data-sourcepos="11:1-12:0"><strong>Guarantee:</strong>�&nbsp;We are confident that you will be satisfied with our services, and we offer a satisfaction guarantee to back that up.</li>
+</ul>                        </div>
+                        <a href="/solutions/borehole-services" class="text-success stretched-link mt-2">Learn more</a>
+                    </div>
+                                    <div class="col card showcase__card h-100 border-0 p-2 rounded-2">
+                        <div class="showcase__image">
+                            <img src="images/sol_64e66dfad7dc0_.jpg" class="img__gswiper rounded-top" alt="Batteries &amp; Racking Solutions" loading="lazy">
+                            <h4 class="regular__bold text-success my-2">Batteries &amp; Racking Solutions</h4>
+                        </div>
+                        <div class="showcase__content">
+                            <p>Explore a wide range of recommended power batteries for various applications, power backup batteries, solar power batteries and Telcom batteries. We offer various battery capacities and technologies. We are authorized dealers of sacred sun batteries in Kenya.</p>                        </div>
+                        <a href="/solutions/batteries-racking-solutions" class="text-success stretched-link mt-2">Learn more</a>
+                    </div>
+                                    <div class="col card showcase__card h-100 border-0 p-2 rounded-2">
+                        <div class="showcase__image">
+                            <img src="images/sol_64e66e3199f5f_.jpg" class="img__gswiper rounded-top" alt="Power Protection &amp; Conditioning" loading="lazy">
+                            <h4 class="regular__bold text-success my-2">Power Protection &amp; Conditioning</h4>
+                        </div>
+                        <div class="showcase__content">
+                            <p>Derisk your investment from power uncertainties like voltage fluctuations, sags, and harmonic distortions.</p>
+<p>We provide solutions such as automated voltage stabilizers, power surge protectors, and power factor corrections.</p>                        </div>
+                        <a href="/solutions/power-protection-conditioning" class="text-success stretched-link mt-2">Learn more</a>
+                    </div>
+                                    <div class="col card showcase__card h-100 border-0 p-2 rounded-2">
+                        <div class="showcase__image">
+                            <img src="images/sol_64e66e5a9b0c4_.jpg" class="img__gswiper rounded-top" alt="Power Backup Solutions" loading="lazy">
+                            <h4 class="regular__bold text-success my-2">Power Backup Solutions</h4>
+                        </div>
+                        <div class="showcase__content">
+                            <p>For persisten and reliable power source we offer advanced and performant power backup solutions for both on-grid and solar sources such as quality diesel &amp; petrol generators, line Interactive &amp; online UPS sets and Inverter charger backups.</p>                        </div>
+                        <a href="/solutions/power-backup-solutions" class="text-success stretched-link mt-2">Learn more</a>
+                    </div>
+                                    <div class="col card showcase__card h-100 border-0 p-2 rounded-2">
+                        <div class="showcase__image">
+                            <img src="images/sol_64e66a4da50f0_.jpg" class="img__gswiper rounded-top" alt="Solar Energy Solutions" loading="lazy">
+                            <h4 class="regular__bold text-success my-2">Solar Energy Solutions</h4>
+                        </div>
+                        <div class="showcase__content">
+                            <p>Discover our wide range of solar energy solutions designed to power your life sustainably. We provide on-grid and off-grid solar energy solutions, solar water pumping and heating systems, and solar lighting solutions.</p>
+<p>Embrace clean energy solutions and embrace a brighter future with our solar energy solutions.</p>                        </div>
+                        <a href="/solutions/solar-energy-solutions" class="text-success stretched-link mt-2">Learn more</a>
+                    </div>
+                                    </div>
+    </div>
+</div>
+
+<div class="row top__products rounded-3 mb-3 bg-white">
+    <div class="col-12 p-1">
+        <img src="images/solar-water-heater-banner.jpg" class="img__div rounded-3" alt="power solar solutions" loading="lazy">
+    </div>
+</div>
+
+<!-- Top Products Shop -->
+<div class="row top__products rounded-3 mb-3 px-2 py-3 bg-white">
+    <div class="col-12 d-flex align-items-center justify-content-between bg-success rounded-3">
+        <h4 class="header__text text-white my-3">Popular Products</h4>
+        <a href="/shop" class="text-white">
+            <span>View All<i class="bi bi-chevron-right ms-2"></i></span>
+        </a>
+    </div>
+    <div class="col-12 px-0">
+        <div class="row row-cols-2 row-cols-sm-4 row-cols-md-6 g-0">
+                                                <div class="col p-1">
+                        <div class="card h-100 rounded-3">
+                            <img src="images/prod_64e1f4131e064_.jpeg" class="i__img rounded-top img__bg" loading="lazy" alt="Eraslan 300L High Pressure Indirect Flat Plate Solar Water Heater">
+                            <div class="p-2">
+                                <p class="text-truncate mb-1 mt-1">Eraslan 300L High Pressure Indirect Flat Plate Solar Water Heater</p>
+                               <!-- <p class="body__font fw-bold mb-1">Ksh 285,508.00 -->
+                                <p></p>
+                                <a href="/product/eraslan-300l-high-pressure-indirect-flat-plate-solar-water-heater" class="stretched-link" aria-label="product-details"></a>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col p-1">
+                        <div class="card h-100 rounded-3">
+                            <img src="images/prod_64e2370af1097_.jpeg" class="i__img rounded-top img__bg" loading="lazy" alt="Eraslan 200L High Pressure Indirect Flat Plate Solar Water Heater">
+                            <div class="p-2">
+                                <p class="text-truncate mb-1 mt-1">Eraslan 200L High Pressure Indirect Flat Plate Solar Water Heater</p>
+                               <!-- <p class="body__font fw-bold mb-1">Ksh 235,045.65 -->
+                                <p></p>
+                                <a href="/product/eraslan-200l-high-pressure-indirect-flat-plate-solar-water-heater" class="stretched-link" aria-label="product-details"></a>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col p-1">
+                        <div class="card h-100 rounded-3">
+                            <img src="images/prod_64e235a4bda56_.jpeg" class="i__img rounded-top img__bg" loading="lazy" alt="Eraslan 350L Low Pressure Vacuum Tubes Complete Solar Water Heating System">
+                            <div class="p-2">
+                                <p class="text-truncate mb-1 mt-1">Eraslan 350L Low Pressure Vacuum Tubes Complete Solar Water Heating System</p>
+                               <!-- <p class="body__font fw-bold mb-1">Ksh 175,556.00 -->
+                                <p></p>
+                                <a href="/product/eraslan-350l-low-pressure-vacuum-tubes-complete-solar-water-heating-system" class="stretched-link" aria-label="product-details"></a>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col p-1">
+                        <div class="card h-100 rounded-3">
+                            <img src="images/prod_64e23a3a7e930_.jpeg" class="i__img rounded-top img__bg" loading="lazy" alt="Eraslan 350L High Pressure Vacuum Tubes Complete Solar Water Heating System">
+                            <div class="p-2">
+                                <p class="text-truncate mb-1 mt-1">Eraslan 350L High Pressure Vacuum Tubes Complete Solar Water Heating System</p>
+                               <!-- <p class="body__font fw-bold mb-1">Ksh 221,619.00 -->
+                                <p></p>
+                                <a href="/product/eraslan-350l-high-pressure-vacuum-tubes-complete-solar-water-heating-system" class="stretched-link" aria-label="product-details"></a>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col p-1">
+                        <div class="card h-100 rounded-3">
+                            <img src="images/prod_64e23c28ea18f_.jpeg" class="i__img rounded-top img__bg" loading="lazy" alt="Eraslan 320L Low Pressure Vacuum Tubes Complete Solar Water Heating System">
+                            <div class="p-2">
+                                <p class="text-truncate mb-1 mt-1">Eraslan 320L Low Pressure Vacuum Tubes Complete Solar Water Heating System</p>
+                               <!-- <p class="body__font fw-bold mb-1">Ksh 164,550.00 -->
+                                <p></p>
+                                <a href="/product/eraslan-320l-low-pressure-vacuum-tubes-complete-solar-water-heating-system" class="stretched-link" aria-label="product-details"></a>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col p-1">
+                        <div class="card h-100 rounded-3">
+                            <img src="images/prod_64e252fa965d3_.jpeg" class="i__img rounded-top img__bg" loading="lazy" alt="Eraslan 320L High Pressure Vacuum Tubes Complete Solar Water Heating System">
+                            <div class="p-2">
+                                <p class="text-truncate mb-1 mt-1">Eraslan 320L High Pressure Vacuum Tubes Complete Solar Water Heating System</p>
+                               <!-- <p class="body__font fw-bold mb-1">Ksh 210,496.16 -->
+                                <p></p>
+                                <a href="/product/eraslan-320l-high-pressure-vacuum-tubes-complete-solar-water-heating-system" class="stretched-link" aria-label="product-details"></a>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col p-1">
+                        <div class="card h-100 rounded-3">
+                            <img src="images/prod_64ec4d9c6fc4e_.jpg" class="i__img rounded-top img__bg" loading="lazy" alt="Eraslan 210L Low Pressure Vacuum Tubes Complete Solar Water Heating System">
+                            <div class="p-2">
+                                <p class="text-truncate mb-1 mt-1">Eraslan 210L Low Pressure Vacuum Tubes Complete Solar Water Heating System</p>
+                               <!-- <p class="body__font fw-bold mb-1">Ksh 149,272.00 -->
+                                <p></p>
+                                <a href="/product/eraslan-210l-low-pressure-vacuum-tubes-complete-solar-water-heating-system" class="stretched-link" aria-label="product-details"></a>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col p-1">
+                        <div class="card h-100 rounded-3">
+                            <img src="images/prod_64ec40f31e06d_.jpg" class="i__img rounded-top img__bg" loading="lazy" alt="Eraslan 210L High Pressure Vacuum Tubes Complete Solar Water Heating System">
+                            <div class="p-2">
+                                <p class="text-truncate mb-1 mt-1">Eraslan 210L High Pressure Vacuum Tubes Complete Solar Water Heating System</p>
+                               <!-- <p class="body__font fw-bold mb-1">Ksh 195,008.00 -->
+                                <p></p>
+                                <a href="/product/eraslan-210l-high-pressure-vacuum-tubes-complete-solar-water-heating-system" class="stretched-link" aria-label="product-details"></a>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col p-1">
+                        <div class="card h-100 rounded-3">
+                            <img src="images/prod_64ec968bdf458_.jpg" class="i__img rounded-top img__bg" loading="lazy" alt="Eraslan 180L Low Pressure Vacuum Tubes Complete Solar Water Heating System">
+                            <div class="p-2">
+                                <p class="text-truncate mb-1 mt-1">Eraslan 180L Low Pressure Vacuum Tubes Complete Solar Water Heating System</p>
+                               <!-- <p class="body__font fw-bold mb-1">Ksh 141,161.00 -->
+                                <p></p>
+                                <a href="/product/eraslan-180l-low-pressure-vacuum-tubes-complete-solar-water-heating-system" class="stretched-link" aria-label="product-details"></a>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col p-1">
+                        <div class="card h-100 rounded-3">
+                            <img src="images/prod_64ec96b8404b7_.jpg" class="i__img rounded-top img__bg" loading="lazy" alt="Eraslan 180L High Pressure Vacuum Tubes Complete Solar Water Heating System">
+                            <div class="p-2">
+                                <p class="text-truncate mb-1 mt-1">Eraslan 180L High Pressure Vacuum Tubes Complete Solar Water Heating System</p>
+                               <!-- <p class="body__font fw-bold mb-1">Ksh 187,264.00 -->
+                                <p></p>
+                                <a href="/product/eraslan-180l-high-pressure-vacuum-tubes-complete-solar-water-heating-system" class="stretched-link" aria-label="product-details"></a>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col p-1">
+                        <div class="card h-100 rounded-3">
+                            <img src="images/prod_64e895cd1956f_.png" class="i__img rounded-top img__bg" loading="lazy" alt="ROM-Energy Protector Series 10KVA 1- Phase Servo Automatic Voltage Stabilizer">
+                            <div class="p-2">
+                                <p class="text-truncate mb-1 mt-1">ROM-Energy Protector Series 10KVA 1- Phase Servo Automatic Voltage Stabilizer</p>
+                               <!-- <p class="body__font fw-bold mb-1">Ksh 120,746.43 -->
+                                <p></p>
+                                <a href="/product/rom-energy-protector-series-10kva-1-phase-servo-automatic-voltage-stabilizer" class="stretched-link" aria-label="product-details"></a>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col p-1">
+                        <div class="card h-100 rounded-3">
+                            <img src="images/prod_64e87d1b07476_.png" class="i__img rounded-top img__bg" loading="lazy" alt="ROM-Energy Protector Series 20KVA 1- Phase Servo Automatic Voltage Stabilizer">
+                            <div class="p-2">
+                                <p class="text-truncate mb-1 mt-1">ROM-Energy Protector Series 20KVA 1- Phase Servo Automatic Voltage Stabilizer</p>
+                               <!-- <p class="body__font fw-bold mb-1">Ksh 204,374.73 -->
+                                <p></p>
+                                <a href="/product/rom-energy-protector-series-20kva-1-phase-servo-automatic-voltage-stabilizer" class="stretched-link" aria-label="product-details"></a>
+                            </div>
+                        </div>
+                    </div>
+                                    </div>
+    </div>
+</div>
+
+<div class="row top__products rounded-3 mb-3 bg-white">
+    <div class="col-12 p-1">
+        <img src="images/stabilizer-banner.jpg" class="img__div rounded-3" alt="power solar solutions" loading="lazy">
+    </div>
+</div>
+<!-- BLog Section -->
+<div class="row brands__top rounded-3 mb-3 px-2 py-3 bg-white">
+    <div class="col-12 d-flex align-items-center justify-content-between rounded-3">
+        <h4 class="header__text text-success my-2">Latest Blog Posts</h4>
+        <a href="/blog" class="text-success">
+            <span>View All<i class="bi bi-chevron-right ms-2"></i></span>
+        </a>
+    </div>
+    <div class="col-12">
+        <hr class="mt-1">
+    </div>
+    <div class="col-12">
+        <div class="row row-cols-2 row-cols-md-4">
+                                                                    <div class="col card h-100 p-2 rounded-3 border-0">
+                        <img src="images/blog_6509b60024e29_.jpeg" class="vision__img rounded-3" loading="lazy" alt="How much does it cost to install solar water heaters in Kenya?">
+                        <div class="py-2">
+                            <p class="header__text clamp__two mb-1">How much does it cost to install solar water heaters in Kenya?</p>
+                            <small class="text-muted d-block">By: Admin</small>
+                            <small class="text-muted"><span><i class="bi bi-clock-history me-2"></i></span>19/09/23</small>
+                            <a href="/blog-post/how-much-does-it-cost-to-install-solar-water-heaters-in-kenya" class="stretched-link"></a>
+                        </div>
+                    </div>
+                                                        <div class="col card h-100 p-2 rounded-3 border-0">
+                        <img src="images/blog_6509705bdb39f_.jpg" class="vision__img rounded-3" loading="lazy" alt="Affordable and Reliable Power Backup Systems for Homes in Kenya">
+                        <div class="py-2">
+                            <p class="header__text clamp__two mb-1">Affordable and Reliable Power Backup Systems for Homes in Kenya</p>
+                            <small class="text-muted d-block">By: Admin</small>
+                            <small class="text-muted"><span><i class="bi bi-clock-history me-2"></i></span>08/08/23</small>
+                            <a href="/blog-post/affordable-and-reliable-power-backup-systems-for-homes-in-kenya" class="stretched-link"></a>
+                        </div>
+                    </div>
+                                                        <div class="col card h-100 p-2 rounded-3 border-0">
+                        <img src="images/blog_64e2c8f7bb787_.jpeg" class="vision__img rounded-3" loading="lazy" alt="Why Choose Our Power Backup Systems for Homes in Kenya?">
+                        <div class="py-2">
+                            <p class="header__text clamp__two mb-1">Why Choose Our Power Backup Systems for Homes in Kenya?</p>
+                            <small class="text-muted d-block">By: Admin</small>
+                            <small class="text-muted"><span><i class="bi bi-clock-history me-2"></i></span>08/08/23</small>
+                            <a href="/blog-post/why-choose-our-power-backup-systems-for-homes-in-kenya" class="stretched-link"></a>
+                        </div>
+                    </div>
+                                                        <div class="col card h-100 p-2 rounded-3 border-0">
+                        <img src="images/blog_64e2bc894f39a_.jpeg" class="vision__img rounded-3" loading="lazy" alt="Ensure Stable Power with Automatic Voltage Regulators in Kenya">
+                        <div class="py-2">
+                            <p class="header__text clamp__two mb-1">Ensure Stable Power with Automatic Voltage Regulators in Kenya</p>
+                            <small class="text-muted d-block">By: Admin</small>
+                            <small class="text-muted"><span><i class="bi bi-clock-history me-2"></i></span>08/08/23</small>
+                            <a href="/blog-post/ensure-stable-power-with-automatic-voltage-regulators-in-kenya" class="stretched-link"></a>
+                        </div>
+                    </div>
+                                    </div>
+    </div>
+</div>
+<!-- Brand Logo Slider -->
+<div class="row brands__top rounded-3 mb-3 px-2 pt-3 bg-white">
+    <div class="col-12 d-flex align-items-center justify-content-between rounded-3">
+        <h4 class="header__text text-success my-2">Trusted Brands</h4>
+    </div>
+    <div class="col-12">
+        <hr class="mt-1">
+    </div>
+    <div class="col-12 p-3">
+        <div class="swiper home__brandsslider pb-3">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="brand__box rounded-3">
+                        <img src="images/eraslan-logo.png" class="img-fluid" loading="lazy" alt="e-solar base  brands">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="brand__box rounded-3">
+                        <img src="images/flagsun-logo.png" class="img-fluid" loading="lazy" alt="e-solar base  brands">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="brand__box rounded-3">
+                        <img src="images/foxpower.jpg" class="img-fluid" loading="lazy" alt="e-solar base brands">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="brand__box rounded-3">
+                        <img src="images/grandglow.jpg" class="img-fluid" loading="lazy" alt="e-solar base brands">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="brand__box rounded-3">
+                        <img src="images/heisolar.jpg" class="img-fluid p-3" loading="lazy" alt="e-solar base brands">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="brand__box rounded-3">
+                        <img src="images/romlogo.jpg" class="img-fluid p-3" loading="lazy" alt="e-solar base brands">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="brand__box rounded-3">
+                        <img src="images/masterpower.png" class="img-fluid p-3" loading="lazy" alt="master-power">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="brand__box rounded-3">
+                        <img src="images/sacredsun-logo.png" class="img-fluid p-3" loading="lazy" alt="e-solar base brands">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="brand__box rounded-3">
+                        <img src="images/samking.jpg" class="img-fluid p-3" loading="lazy" alt="e-solar base brands">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="brand__box rounded-3">
+                        <img src="images/wochn.jpg" class="img-fluid p-3" loading="lazy" alt="e-solar base brands">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="brand__box rounded-3">
+                        <img src="images/vitronenergy.jpg" class="img-fluid p-3" loading="lazy" alt="e-solar base brands">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</div>
+
+</div>
+</main>
+<footer class="bg-dark text-white py-4 mt-auto">
+    <div class="container">
+        <div class="row bg-dark">
+            <div class="col-md-3 py-4">
+                <h4 class="footer__header">Power &amp; Solar Systems Ltd</h4>
+                <p class="footer__text py-3">
+                    We are an electrical engineering company based in Nairobi, Kenya to provide solar power products and solutions.
+                </p>
+            </div>
+            <div class="col-md-3 py-4">
+                <h4 class="footer__header">Latest Posts</h4>
+                                                
+                <div class="card bg-transparent border-0 py-3">
+                    <div class="row g-0">
+                        <div class="col-3">
+                            <img src="images/blog_6509b60024e29_.jpeg" class="img-fluid rounded-1" loading="lazy" alt="How much does it cost to install solar water heaters in Kenya?">
+                        </div>
+                        <div class="col-9">
+                            <div class="card-body py-0">
+                                <p class="footer__text mb-1 text-white">How much does it cost to install solar water heaters in Kenya?</p>
+                                <p class="footer__text text-secondary">19/09/23</p>
+                                <a href="/blog-post/how-much-does-it-cost-to-install-solar-water-heaters-in-kenya" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                                
+                <div class="card bg-transparent border-0 py-3">
+                    <div class="row g-0">
+                        <div class="col-3">
+                            <img src="images/blog_6509705bdb39f_.jpg" class="img-fluid rounded-1" loading="lazy" alt="Affordable and Reliable Power Backup Systems for Homes in Kenya">
+                        </div>
+                        <div class="col-9">
+                            <div class="card-body py-0">
+                                <p class="footer__text mb-1 text-white">Affordable and Reliable Power Backup Systems for Homes in Kenya</p>
+                                <p class="footer__text text-secondary">08/08/23</p>
+                                <a href="/blog-post/affordable-and-reliable-power-backup-systems-for-homes-in-kenya" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                                            </div>
+            <div class="col-md-2 py-4">
+                <h4 class="footer__header">Quick Links</h4>
+                <div class="list-group list-group-flush bg-transparent">
+                    <a href="/shop" class="list-group-item list-group-item-action bg-dark text-white footer__text px-0">Online Shop</a>
+                    <a href="/power-and-solar-solutions" class="list-group-item list-group-item-action bg-dark text-white footer__text px-0">Our Solutions</a>
+                    <a href="/about-us" class="list-group-item list-group-item-action bg-dark text-white footer__text px-0">About us</a>
+                    <a href="/careers" class="list-group-item list-group-item-action bg-dark text-white footer__text px-0">Careers</a>
+                    <a href="/blog" class="list-group-item list-group-item-action bg-dark text-white footer__text px-0">Blog</a>
+                </div>
+            </div>
+            <div class="col-md-4 py-4">
+                <h4 class="footer__header">Get in touch</h4>
+                <div class="d-flex">
+                    <span class="me-2"><i class="bi bi-pin-map-fill"></i></span>
+                    <p class="footer__text lh-base">
+                        Nairobi, Mombasa Road
+                        <br>
+                        Vision Plaza Building
+                        <br>
+                        First Floor, Office No. 47
+                    </p>
+                </div>
+                <div class="d-flex">
+                    <span class="me-2"><i class="bi bi-mailbox"></i></span>
+                    <p class="footer__text lh-base">
+                        P.O Box 78788-00507
+                        <br>
+                        Nairobi, Kenya
+                    </p>
+                </div>
+                <div class="d-flex">
+                    <span class="me-2"><i class="bi bi-envelope-check-fill"></i></span>
+                    <p class="footer__text lh-base">
+                        info@powersolarsystems.co.ke
+                    </p>
+                </div>
+                <div class="d-flex">
+                    <span class="me-2"><i class="bi bi-headset"></i></span>
+                    <p class="footer__text lh-base">
+                        0735 908547, 
+                    </p>
+                </div>
+            </div>
+            <div class="col-12">
+                <hr>
+                <p class="text-center footer__text">Copyright © 2023 All Rights Reserved</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/jquery-3.7.0.min.js"></script>
+<script src="js/swiper-bundle.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/app.js"></script>
+<script>
+    var swiper = new Swiper(".home__categories", {
+        slidesPerView: 2,
+        spaceBetween: 10,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        breakpoints: {
+            640: {
+                slidesPerView: 3,
+                spaceBetween: 10,
+            },
+            768: {
+                slidesPerView: 6,
+                spaceBetween: 10,
+            },
+            1024: {
+                slidesPerView: 6,
+                spaceBetween: 10,
+            },
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+
+    var swiper = new Swiper(".home__brandsslider", {
+        slidesPerView: 2,
+        spaceBetween: 10,
+        lazy: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        breakpoints: {
+            640: {
+                slidesPerView: 3,
+                spaceBetween: 10,
+            },
+            768: {
+                slidesPerView: 6,
+                spaceBetween: 10,
+            },
+            1024: {
+                slidesPerView: 6,
+                spaceBetween: 10,
+            },
+        },
+    });
+</script>
+
+
+
+</body></html>
